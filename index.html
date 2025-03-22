@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+    <!-- navbar-->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark py-3 fixed-top">
+        <div class="container">
+            <a href="" class="navbar-brand">Frontend Bootcamp</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <div class="navbar-toggler-icon ">
+
+                </div>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="" class="nav-link">What you will learn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link"> Questions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Instructor</a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- showcase -->
+
+
+
+
+    <!-- by default text-center works. on devices more above than small devices , it aligns to the start.In small, it is aligned to the center.-->
+    <section class="bg-dark text-light p-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1> Become a <span class="text-success">Web Developer</span> </h1>
+                    <p class="lead my-4"> We focus on teaching our students the fundamentals of the latest and greatest
+                        technologies to prepare them for their first development role</p>
+                    <button class="btn btn-warning btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">Start the Enrollment</button>
+                </div>
+                <!-- on small device , img is not displayed. but higher devices, above small , it displays -->
+                <img src="images/img.jpg" class="rounded-circle img-fluid d-none d-sm-block">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- newsletter area -->
+
+    <section class="bg-success text-light p-5">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+                <h3 class="mb-3 mb-md-0">
+                    Sign Up for Our Newsletter
+                </h3>
+                <div class="input-group input-news">
+                    <input type="text" class="form-control" placeholder="Enter Email" aria-label="Recipient's username"
+                        aria-describedby="button-addon2">
+                    <button class="btn btn-dark btn-lg" type="button" id="button-addon2">Button</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- Boxes-->
+
+    <section class="p-3 bg-light">
+        <div class="container">
+            <h2 class="text-center fw-bold">Mode of Learning</h2>
+            <div class="row text-center">
+                <div class="col-md g-4">
+                    <div class="card bg-dark text-white">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-laptop-fill"></i>
+
+                            </div>
+                            <h3 class="card-title">
+                                Virtual
+                            </h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum reprehenderit rerum
+                                odio voluptate iste cupiditate!
+                            </p>
+                            <a href="" class="btn btn-primary">Read More</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md g-4">
+                    <div class="card bg-secondary text-white">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-person"></i>
+
+                            </div>
+                            <h3 class="card-title">
+                                Hybrid
+                            </h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum reprehenderit rerum
+                                odio voluptate iste cupiditate!
+                            </p>
+                            <a href="" class="btn btn-dark">Read More</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md g-4">
+                    <div class="card bg-dark text-white">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-people"></i>
+
+                            </div>
+                            <h3 class="card-title">
+                                In Person
+                            </h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum reprehenderit rerum
+                                odio voluptate iste cupiditate!
+                            </p>
+                            <a href="" class="btn btn-primary">Read More</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Learn Section -->
+    <section class="p-5" id="learn-section">
+
+        <div class="container">
+            <div class="row align-iems-center justify-content-between">
+                <div class="col-md mb-4">
+                    <img src="images/front-end.jpg" class="img-fluid">
+
+                </div>
+                <div class="col-md">
+                    <h2> Learn the Fundamentals</h2>
+                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi sequi ea, in aliquam voluptatem
+                        explicabo?</p>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis laboriosam nobis delectus
+                        illo totam ipsum?
+
+                    </p>
+                    <a href="" class="btn btn-light mt-3">
+                        <i class="bi bi-chevron-right"></i> Read More
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- Learn Section 2-->
+    <section class="p-5 bg-dark text-white" id="learn-section">
+
+        <div class="container">
+            <div class="row align-iems-center justify-content-between">
+
+                <div class="col-md mb-4">
+                    <h2> Learn React</h2>
+                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi sequi ea, in aliquam voluptatem
+                        explicabo?</p>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis laboriosam nobis delectus
+                        illo totam ipsum?
+
+                    </p>
+                    <a href="" class="btn btn-light mt-3">
+                        <i class="bi bi-chevron-right"></i> Read More
+                    </a>
+                </div>
+                <div class="col-md">
+                    <img src="images/react.webp" class="img-fluid">
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- FAQ Accordion -->
+    <section class="p-5" id="questions">
+        <div class="container">
+            <h2 class="text-center mb-4">
+                Frequently Asked Questions
+            </h2>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#qstn-1" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Is React 18 released?
+                        </button>
+                    </h2>
+                    <div id="qstn-1" class="accordion-collapse collapse" aria-labelledby="flush-headingOne">
+                        <div class="accordion-body">React helps build fast and modern web applications. React was
+                            developed by Facebook in 2011 and released to the public in 2013. React 16.0 was released in
+                            September 2017, while React 17.0 was released in August 2020. On March 29, 2022, React 18
+                            was released, which introduced new features.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#qstn-2" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            What is the difference between React 15 and 16?
+
+                        </button>
+                    </h2>
+                    <div id="qstn-2" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">React 15: Lacked comprehensive error boundaries, leading to full
+                            application crashes on JavaScript errors. React 16: Introduced Error Boundaries, allowing
+                            components to catch and handle errors within their subtree, preventing crashes and providing
+                            fallback UIs</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#qstn-3" aria-expanded="false" aria-controls="flush-collapseThree">
+                            Is 2 months enough for web development?
+                        </button>
+                    </h2>
+                    <div id="qstn-3" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Web development basics can be learned as quickly as three to six
+                            months, depending on your dedication and prior experience.</div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#qstn-4" aria-expanded="false" aria-controls="flush-collapseThree">
+                            What is a front end web developer?
+                        </button>
+                    </h2>
+                    <div id="qstn-4" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">A front-end developer builds the front-end portion of websites and
+                            web applications—the part users see and interact with. A front-end developer is a type of
+                            software developer who </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#qstn-5" aria-expanded="false" aria-controls="flush-collapseThree">
+                            What is the front-end of a web application?
+                        </button>
+                    </h2>
+                    <div id="qstn-5" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">A front-end application, commonly known as the interface of an
+                            application, is the layer or element that the user has the ability to use, see, and interact
+                            with through buttons, images, interactive elements, navigational menus, and text.</div>
+                    </div>
+                </div>
+
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#qstn-6" aria-expanded="false" aria-controls="flush-collapseThree">
+                            Which is harder, frontend or backend?
+                        </button>
+                    </h2>
+                    <div id="qstn-6" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Whether frontend or backend development is "harder" is subjective
+                            and depends on individual strengths and interests, but generally, backend development can be
+                            more challenging due to its focus on complex systems, security, and scalability, while
+                            frontend focuses on user interface and experience, which can be more visually-oriented and
+                            have a faster learning curve</div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- Section of instructors -->
+
+    <section class="bg-success p-5" id="instructors">
+        <div class="container">
+            <h2 class="text-center text-white">
+                Our Instructors
+            </h2>
+            <p class="lead text-center text-white mb-5">
+                Our instructors all have 5+ years of experience in web development industry.
+            </p>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="images/person1.jpg" class="img-fluid rounded-circle"
+                                style="height:210px; width: 190px">
+                            <h3 class="card-title">
+                                John Dann
+                            </h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia facere enim
+                                deleniti sapiente laudantium!
+
+                            </p>
+                            <a href="" class=""><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href="" class=""><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href="" class=""><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href="" class=""><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="images/person2.jpg" class="img-fluid rounded-circle"
+                                style="height:210px; width: 190px">
+                            <h3 class="card-title">
+                                Emy George
+                            </h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia facere enim
+                                deleniti sapiente laudantium!
+
+                            </p>
+                            <a href="" class=""><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href="" class=""><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href="" class=""><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href="" class=""><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="images/person4.jpg" class="img-fluid rounded-circle"
+                                style="height:210px; width: 190px">
+                            <h3 class="card-title">
+                                Wiki Louis
+                            </h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia facere enim
+                                deleniti sapiente laudantium!
+
+                            </p>
+                            <a href="" class=""><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href="" class=""><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href="" class=""><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href="" class=""><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="images/person3.jpg" class="img-fluid rounded-circle"
+                                style="height:210px; width: 190px">
+                            <h3 class="card-title">
+                                Elina Ain
+                            </h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officia facere enim
+                                deleniti sapiente laudantium!
+
+                            </p>
+                            <a href="" class=""><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href="" class=""><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href="" class=""><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href="" class=""><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section-->
+
+
+
+
+    <section class="p-5" id="contact-section">
+        <div class="container">
+            <h2 class="text-center mb-4">
+                Contact Info
+            </h2>
+            <div class="row g-4">
+                <div class="col-sm-12 col-md-6">
+
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Main Location:</span> 50 Main st Boston MA
+                        </li>
+                    </ul>
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Enrollment Phone:</span> 123456789
+                        </li>
+                    </ul>
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Student Phone:</span> 123456789
+                        </li>
+                    </ul>
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Enrollment Email:</span> kkt@gmail.com
+                        </li>
+                    </ul>
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Student Email:</span> std@gmail.com
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-12 col-md-6">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15659.576792105492!2d76.120064!3d11.121257149999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba63703ab8ec9d1%3A0xe3375dedec326fba!2sApollo%20Tyres%20-%20Ernadu%20Tyres!5e0!3m2!1sen!2sin!4v1742634696564!5m2!1sen!2sin"
+                        width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- footer section-->
+
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead">Copyright &copy; 2021 Frontend Bootcamp</p>
+            <a href="" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <!-- modal-->
+
+   
+    <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="recipient-name" class="col-form-label">Recipient:</label>
+                <input type="text" class="form-control" id="recipient-name">
+              </div>
+              <div class="mb-3">
+                <label for="message-text" class="col-form-label">Message:</label>
+                <textarea class="form-control" id="message-text"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal" onclick="alert('Enrolled successfully ')">Send message</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
